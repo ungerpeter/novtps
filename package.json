@@ -1,0 +1,19 @@
+{
+  "name": "novtps",
+  "version": "1.0.0",
+  "description": "node-opencv-video-to-panorama-stitcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ungerpeter/novtps.git"
+  },
+  "author": "Peter Unger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ungerpeter/novtps/issues"
+  },
+  "homepage": "https://github.com/ungerpeter/novtps#readme"
+}
