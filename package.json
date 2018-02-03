@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ungerpeter/novtps/issues"
   },
-  "homepage": "https://github.com/ungerpeter/novtps#readme"
+  "homepage": "https://github.com/ungerpeter/novtps#readme",
+  "dependencies": {
+    "opencv": "^6.0.0"
+  }
 }
