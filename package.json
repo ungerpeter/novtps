@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/ungerpeter/novtps#readme",
   "dependencies": {
-    "opencv": "^6.0.0"
+    "opencv4nodejs": "^3.0.3"
   }
 }
