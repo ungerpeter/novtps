@@ -4,6 +4,7 @@
   "description": "node-opencv-video-to-panorama-stitcher",
   "main": "index.js",
   "scripts": {
+    "start": "node ./server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/ungerpeter/novtps#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "opencv4nodejs": "^3.0.3"
   }
 }
