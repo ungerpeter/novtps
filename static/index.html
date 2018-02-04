@@ -4,20 +4,12 @@
     <title>NOVTPS</title>
 </head>
 <body>
-    <h1>NOVTPS</h1>
+
+    <div id="conStatus"></div>
     <video id="localVideo" autoplay/>
-    <script>
-      window.addEventListener("load", function (evt) {
-        navigator.getUserMedia({ audio: true, video: true},
-          function(stream) {
-            var video = document.getElementById('localVideo');
-            video.src = window.URL.createObjectURL(stream);
-          },
-          function(err) {
-            console.log("The following error occurred: " + err.name);
-          }
-        );
-      });
-    </script>
+    <div class="signaling"></div>
+    <video id="remoteVideo" autoplay/>
+
+    <script src="bundle.js"></script>
 </body>
 </html>
